@@ -1,0 +1,11 @@
+Sitemap: http://elite-shoes.000webhostapp.com/sitemap.xml
+
+User-agent: *
+Disallow: /shoes.xml
+Disallow: /update.php
+
+User-agent: YandexBot
+Host: elite-shoes.000webhostapp.com
+Clean-param: offerID /product/
+Clean-param: tabID /catalog/
+Clean-param: tabID /

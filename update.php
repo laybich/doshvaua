@@ -1,0 +1,1 @@
+<?php file_put_contents ("shoes.xml", file_get_contents($_GET["site"])); ?>

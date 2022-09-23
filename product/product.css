@@ -1,0 +1,208 @@
+header {
+	background: #444;
+	padding: 10px 0;
+	position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.header__logo {
+	width: 100%;
+	margin: 0;
+}
+
+header .btn {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header .btn svg {
+	width: 30px;
+}
+
+.tel a {
+	display: block;
+	font-size: 14px;
+}
+
+.tel a:first-child {
+	margin-bottom: 8px;
+}
+
+.owl-nav {
+	width: 110%;
+	margin-left: -5%;
+}
+
+.owl-dots {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	margin: 20px 0;
+}
+
+.owl-item {
+	background: url("https://i.gifer.com/origin/a1/a1bb0cc10512df82afd421a77097cb91_w200.gif") center no-repeat;
+}
+
+button.owl-dot {
+	width: 10px;
+	height: 10px;
+	background: #ccc !important;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+button.owl-dot.active, button.owl-dot:focus {
+	outline: none;
+	background: #aaa !important;
+}
+
+#catalog {
+	padding: 64px 0 60px 0;
+}
+
+#title {
+	font-weight: 400;
+    letter-spacing: .001em;
+    font-size: 25px;
+	line-height: 1.5em;
+	margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.subtitle {
+	margin: 30px 0;
+}
+
+#catalog .tabs {
+	background: #fff;
+	height: 60px;
+	margin-bottom: 42px;
+}
+
+#catalog .tabs li {
+	width: 33%;
+	height: 60px;
+	min-height: auto;
+	text-align: center;
+	cursor: pointer;
+	color: #999;
+}
+
+#catalog .form-order {
+	padding: 30px;
+}
+
+#catalog .card .d-flex:not(.params) li {
+	width: 50%;
+}
+
+#catalog .card .d-flex:not(.params) li.active {
+	border-bottom: 3px solid var(--main-color);
+}
+
+#catalog .tabs a {
+	display: block;
+	height: 60px;
+	line-height: 3.6em;
+}
+
+.card-s {
+	font-size: 14px;
+	line-height: 1.5em;
+	word-break: break-word;
+	display: none;
+}
+
+.card-s.active {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.card-s.active:not(.params) {
+	display: block;
+}
+
+#catalog .card-s li {
+	padding-bottom: 0;
+	min-height: auto;
+}
+
+ul.name, ul.value {
+	width: 50%;
+}
+
+.params li {
+	line-height: 30px;
+}
+
+.params .name li {
+	font-weight: bold;
+	color: #999;
+}
+
+promhtml, h2 {
+	display: none;
+}
+
+@media screen and (max-width: 991px) {
+	.card-s {
+		margin-bottom: 60px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#catalog .d-md-flex {
+		height: 120px;
+		text-align: center;
+	}
+
+	#catalog .d-md-flex li, #catalog .d-md-flex a {
+		width: 100%;
+		height: 40px;
+		line-height: 2.5em;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	input[type="radio"] {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+
+	#catalog .card-s li {
+		height: 65px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.form-order input {
+		font-size: 12px;
+	}
+
+	.form-order p {
+		font-size: 15px;
+		color: #ccc;
+	}
+
+	.btn-card {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container {
+		max-width: 95%;
+		padding: 0;
+	}
+
+	.form-order {
+		padding: 25px;
+	}
+}
